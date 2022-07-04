@@ -2,6 +2,7 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
+        dangerouslyAllowSVG: true,
         domains: ["rb.gy", "random.imagecdn.app", "picsum.photos"],
     },
 };

@@ -5,8 +5,8 @@ const Home = () => {
     return (
         <div>
             <header>
-                <div>
-                    <Image src={"https://picsum.photos/200/300"} layout={"fill"}/>
+                <div className={'relative w-36 h-10'}>
+                    <Image src={"https://rb.gy/vtbzlp"} layout={'fill'} objectFit={"contain"}/>
                 </div>
             </header>
         </div>
